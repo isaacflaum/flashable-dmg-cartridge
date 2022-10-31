@@ -1,6 +1,9 @@
 # flashable-dmg-cartridge
 PCB - Cartridge for original gameboy games with no mapper
 
+## Front
+![Alt text](/preview/front.svg "Cartridge Front")
+
 This pcb is for flashing DMG games with no mapper such as the original Tetris game, or custom roms. The board is designed to take a PLCC-32 Socket + EEPROM Chip which can be removed from the socket and re-flashed to change gameboy ROMs. In order to make this cartridge you will need some soldering experience or determination plus the items listed in the BOM.
 
 PCB is ready to be fabricated from anyone who takes gerber files - my fabricator of choice is PCBWay as they are professional and relatively quick. Feel free to open the files in KiCad and explore, modify and make your own variations of the board :) If you want to just fabricate what's already there you can upload the gerber.zip to PCBWay or any fabricator that takes gerber files. Make sure the following is specified (Note: if you are using another fabricator besides PCBWay this might vary):
@@ -25,10 +28,10 @@ To flash a ROM onto the AT28C256 EEPROM Chip you will need a PLCC-32 to DIP-32 A
 # Cartridge Preview
 
 ## Front
-![Alt text](/preview/cartridge_front.png "Cartridge Front")
+![Alt text](/preview/front.svg "Cartridge Front")
 
 ## Back
-![Alt text](/preview/cartridge_back.png "Cartridge Back")
+![Alt text](/preview/back.svg "Cartridge Back")
 
 # Schematic
 ![Alt text](/preview/cartridge_schematic.png "Cartridge Schematic")
