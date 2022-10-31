@@ -1,7 +1,6 @@
 # flashable-dmg-cartridge
 PCB - Cartridge for original gameboy games with no mapper
 
-## Front
 ![Alt text](/preview/front.svg "Cartridge Front")
 
 This pcb is for flashing DMG games with no mapper such as the original Tetris game, or custom roms. The board is designed to take a PLCC-32 Socket + EEPROM Chip which can be removed from the socket and re-flashed to change gameboy ROMs. In order to make this cartridge you will need some soldering experience or determination plus the items listed in the BOM.
